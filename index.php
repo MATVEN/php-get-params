@@ -18,22 +18,25 @@ una stringa rossa.*/ ?>
   </head>
   <body>
 
-    <h1>
+
 
       <?php
 
       if ($access) {
 
-        echo "Accesso Consentito";
+      ?>
+        <h1 style="color:green"> <?php  echo "Accesso Consentito" ?> </h1>;
 
+        <?php
       }else {
+         ?>
+        <h1 style="color:red"> <?php echo "Accesso Negato" ?> </h1>;
 
-        echo "Accesso Negato";
-        
+        <?php
       }
 
        ?>
 
-    </h1>
+
   </body>
 </html>
