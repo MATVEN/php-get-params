@@ -12,7 +12,7 @@ una stringa rossa.*/ ?>
     <?php
 
     $password = $_GET['password'];
-    $access = ($password == | 'Boolean');
+    $access = ($password == 'Boolean');
 
      ?>
   </head>
